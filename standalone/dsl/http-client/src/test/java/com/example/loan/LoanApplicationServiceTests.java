@@ -124,7 +124,6 @@ public class LoanApplicationServiceTests {
 		BDDAssertions.thenThrownBy(service::countDrunks).hasMessageContaining("Read timed out");
 	}
 
-	@Disabled("TODO: RestAssured MockMvc Cookies are broken")
 	@Test
 	public void shouldSuccessfullyGetCookies() {
 		// when:

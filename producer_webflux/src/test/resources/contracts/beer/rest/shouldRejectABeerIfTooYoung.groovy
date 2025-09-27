@@ -17,7 +17,6 @@ then:
 ```
 
 """)
-	ignored() // TODO: RestAssured WebFlux broken
 	request {
 		method 'POST'
 		url '/check'

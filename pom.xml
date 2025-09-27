@@ -55,7 +55,7 @@
 				<module>producer_advanced</module>
 				<module>producer_proto</module>
 				<module>producer_kotlin</module>
-				<!-- <module>producer_security</module> --> <!-- TODO: Fix me -->
+				<module>producer_security</module>
 				<module>producer_with_stubs_per_consumer</module>
 				<module>producer_with_git</module>
 				<module>producer_with_empty_git</module>
@@ -79,7 +79,7 @@
 				<module>consumer_with_stubs_per_consumer</module>
 				<module>consumer_with_discovery</module>
 				<module>consumer_with_restdocs</module>
-				<!--<module>consumer_security</module>-->  <!-- TODO: Fix me -->
+				<module>consumer_security</module>
 				<module>consumer_with_latest_2_2_features</module>
 				<module>consumer_java</module>
 <!--				<module>consumer_kotlin_ftw</module>--><!-- Kotlin issues -->
@@ -122,7 +122,7 @@
 				<module>producer_advanced</module>
 				<module>producer_proto</module>
 				<module>producer_kotlin</module>
-				<!-- <module>producer_security</module> --> <!-- TODO: Fix me -->
+				<module>producer_security</module>
 				<module>producer_with_stubs_per_consumer</module>
 				<module>producer_with_git</module>
 				<module>producer_with_empty_git</module>
@@ -146,7 +146,7 @@
 				<module>consumer_with_stubs_per_consumer</module>
 				<module>consumer_with_discovery</module>
 				<module>consumer_with_restdocs</module>
-				<!--<module>consumer_security</module>-->  <!-- TODO: Fix me -->
+				<module>consumer_security</module>
 				<module>consumer_with_latest_2_2_features</module>
 				<module>consumer_java</module>
 <!--				<module>consumer_kotlin_ftw</module>--><!-- Kotlin issues -->

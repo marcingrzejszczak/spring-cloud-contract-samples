@@ -41,7 +41,6 @@ public class BeerControllerWebFluxTest extends AbstractTest {
 		this.beerController.port = this.producerPort;
 	}
 
-	@Disabled("TODO: Issues with RestAssured")
 	@Test
 	public void should_give_me_a_beer_when_im_old_enough() throws Exception {
 		
@@ -54,7 +53,6 @@ public class BeerControllerWebFluxTest extends AbstractTest {
 	}
 
 	@Test
-	@Disabled("TODO: Issues with RestAssured")
 	public void should_reject_a_beer_when_im_too_young() throws Exception {
 		
 		this.mockMvc.perform(MockMvcRequestBuilders.post("/beer")

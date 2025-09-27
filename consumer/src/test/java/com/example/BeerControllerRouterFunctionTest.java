@@ -61,7 +61,6 @@ public class BeerControllerRouterFunctionTest extends AbstractTest {
 	}
 
 	@Test
-	@Disabled("TODO: Issues with RestAssured")
 	public void should_give_me_a_beer_when_im_old_enough() throws Exception {
 		
 		this.mockMvc.perform(MockMvcRequestBuilders.post("/beer")
@@ -73,7 +72,6 @@ public class BeerControllerRouterFunctionTest extends AbstractTest {
 	}
 
 	@Test
-	@Disabled("TODO: Issues with RestAssured")
 	public void should_reject_a_beer_when_im_too_young() throws Exception {
 		
 		this.mockMvc.perform(MockMvcRequestBuilders.post("/beer")

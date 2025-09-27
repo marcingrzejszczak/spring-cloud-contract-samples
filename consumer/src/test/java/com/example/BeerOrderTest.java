@@ -63,7 +63,6 @@ public class BeerOrderTest extends AbstractTest {
 	}
 
 	@Test
-	@Disabled("TODO: Issues with RestAssured")
 	public void shouldProcessBeerOrder() throws Exception {
 		
 		XmlMapper xmlMapper = new XmlMapper();
@@ -77,7 +76,6 @@ public class BeerOrderTest extends AbstractTest {
 	}
 
 	@Test
-	@Disabled("TODO: Issues with RestAssured")
 	public void shouldCancelBeerOrder() throws Exception {
 		
 		XmlMapper xmlMapper = new XmlMapper();
