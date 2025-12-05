@@ -5,8 +5,6 @@ set -o errtrace
 set -o nounset
 set -o pipefail
 
-export MAVEN_WRAPPER_VERSION="${MAVEN_WRAPPER_VERSION:-3.9.10}"
-
 for d in */; do
-    echo "$d" && cd "$d" && (mvn wrapper:wrapper -Dmaven="${MAVEN_WRAPPER_VERSION}" || echo "Failed") && cd ..
+    echo "$d" && cd "$d" && (mvn wrapper:wrapper || echo "Failed") && cd ..
 done

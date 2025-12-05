@@ -24,7 +24,7 @@ println "Boot Version [${bootVersion}], Cloud version [${BOM_VERSION}], Contract
 boolean oldProducerTrainEnabled = project.findProperty('OLD_PRODUCER_TRAIN') == "true"
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-webmvc")
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.cloud:spring-cloud-starter-stream-rabbit")
 	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: "$jacksonVersion"

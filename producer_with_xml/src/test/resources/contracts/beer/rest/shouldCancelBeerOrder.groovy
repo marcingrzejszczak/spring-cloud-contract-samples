@@ -3,7 +3,6 @@ package contracts.beer.rest
 import org.springframework.cloud.contract.spec.Contract
 
 Contract contractDsl = Contract.make {
-	ignored() // TODO: RestAssured MockMvc broken
 	request {
 		method 'POST'
 		urlPath '/cancelOrder'

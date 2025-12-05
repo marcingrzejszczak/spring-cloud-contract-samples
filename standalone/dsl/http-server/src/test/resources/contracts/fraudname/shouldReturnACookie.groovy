@@ -17,7 +17,6 @@
 package contracts.fraudname
 
 org.springframework.cloud.contract.spec.Contract.make {
-	ignored() // TODO: RestAssured mockmvc + Cookies are broken
 	request {
 		method GET()
 		url '/frauds/name'

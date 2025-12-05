@@ -25,7 +25,7 @@ println "Boot Version [${bootVersion}], Cloud version [${BOM_VERSION}], Contract
 dependencies {
 	implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion" // Required for Kotlin integration
 	implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion" // Required for Kotlin integration
-	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-webmvc")
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.cloud:spring-cloud-starter-stream-rabbit")
 
